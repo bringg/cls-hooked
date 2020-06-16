@@ -4,6 +4,9 @@
 
 # Continuation-Local Storage ( Hooked )
 
+### Note for bringg developers
+This is fork of: https://github.com/Jeff-Lewis/cls-hooked/pull/60 , once this PR is merged we can get back to upstream.
+
 ### This is a fork of [CLS](https://github.com/othiym23/node-continuation-local-storage) using [AsyncWrap](https://github.com/nodejs/node-eps/blob/async-wrap-ep/XXX-asyncwrap-api.md) OR [async_hooks](https://github.com/nodejs/node/blob/master/doc/api/async_hooks.md) instead of [async-listener](https://github.com/othiym23/async-listener).
 
 ### When running Nodejs version < 8, this module uses [AsyncWrap](https://github.com/nodejs/node-eps/blob/async-wrap-ep/XXX-asyncwrap-api.md) which is an unsupported Nodejs API, so please consider the risk before using it.
